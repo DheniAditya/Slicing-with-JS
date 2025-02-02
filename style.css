@@ -6,3 +6,7 @@
     --light-blue-color : #6F7DFB;
     --blue-color : #057ADA;
 }
+
+body{
+    font-family: poppins;
+}
