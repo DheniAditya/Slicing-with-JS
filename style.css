@@ -14,5 +14,24 @@
 }
 
 body{
-    font-family: poppins;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.btn{
+    padding: 10px 32px;
+    border-radius: 24px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn.dark{
+    background: var(--dark-blue-color);
+}
+
+.btn.light{
+    background: var(--light-blue-color);
 }
