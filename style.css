@@ -40,4 +40,11 @@ body{
 .btn.enrol-icon::before{
     content: url(image/enroll-icon.svg);
     position: absolute;
+    top: 50%;
+    left: 32px;
+    transform: translateY(-50%);
+}
+
+.btn.enrol-icon{
+    padding-left: 60px;
 }
