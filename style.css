@@ -26,6 +26,7 @@ body{
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
+    position: relative;
 }
 
 .btn.dark{
@@ -34,4 +35,9 @@ body{
 
 .btn.light{
     background: var(--light-blue-color);
+}
+
+.btn.enrol-icon::before{
+    content: url(image/enroll-icon.svg);
+    position: absolute;
 }
