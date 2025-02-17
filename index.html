@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,8 @@
 </head>
 <body>
     <header>
-        <nav>
             <div class="wrapper">
+                <nav>
                 <div class="logo">GD.</div>
 
                 <ul>
@@ -24,11 +25,12 @@
                     </li>
                     
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Our Work</a>
                     </li>
+
                     <li>
                         <a href="#" class="btn dark">Enrol Now</a>
                     </li>
@@ -36,6 +38,39 @@
             </div>
         </nav>
         <!-- End of Navigation Menu -->
+
+        <nav class="mobile-nav">
+            <div class="logo">GD.</div>
+            <div>
+                <img src="image/Menu.svg" alt="">
+            </div>
+        </nav>
+
+        <div class="mobile menu-container">
+            <div class="close-icon">
+                <img src="image/close.svg" alt="">
+            </div>
+        </div>
+
+            <ul>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Our Work</a>
+                </li>
+                
+                <li>
+                    <a href="#" class="btn dark">Enrol Now</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- End of mobile navigation menu -->
 
         <div class="hero-section">
             <div class="left">
@@ -65,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="achievement-cards">
+            <!-- <div class="achievement-cards"> -->
                 <div class=".achievement-card overall-rating">
                     <div class="content">
                         <div>
@@ -76,7 +111,9 @@
                     </div>
 
                     <div class="bg"></div>
-                </div> 
+                    </div>
+                </div>
+            </div> 
         </div>
     </header>
     <!-- End Of Header Section -->
@@ -113,15 +150,19 @@
 
             <div class="right">
                 <h2>Lorem ipsum dolor sit amet</h2>
-
+            <div class="features">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, enim!</p>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, enim!</p>
             </div>
 
             <a href="#" class="btn light">Learn More</a>
+            </div>
+            <a href="#" class="btn light mobile-btn"> Learn More</a>
         </section>
     </div>
+
+    <!-- End of testimonial section -->
 
     <section class="courses-section">
         <div class="wrapper">
@@ -164,9 +205,8 @@
                     <span>App Store</span>
                 </div>
                 
-            <div class="app-buttons">
                 <div class="app-btn">
-                    <img src="image/playstore-icon.svg" alt="">
+                    <img src="image/playstore-icon.svg" alt=""/>
                     <span>Play Store</span>
                 </div>
             </div>
